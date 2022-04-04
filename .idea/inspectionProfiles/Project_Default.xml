@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="django.weer_10_1.day_1.rest_pegistration_project.applications.account.models.BaseUserManager" />
+          <option value="django.weer_10_1.day_1.rest_pegistration_project.applications.account.models.AbstractUser" />
+          <option value="django.weer_10_1.day_1.rest_pegistration_project.applications.serializers.get_user_model" />
+          <option value="django.weer_10_1.day_2.rest_register_project.applications.account.views.*" />
+          <option value="django.weer_10_1.day_2.rest_register_project.applications.product.admin.*" />
+          <option value="stack_overflow_kg.applications.account.models.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

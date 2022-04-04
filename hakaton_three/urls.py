@@ -26,4 +26,5 @@ urlpatterns = [
     path('api/v1/swagger(.json|.yaml)', schema_view.without_ui(cache_timeout=0), name='schema-json'),
     path('api/v1/swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('api/v1/redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path('api/v1/question/', include('applications.question.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
